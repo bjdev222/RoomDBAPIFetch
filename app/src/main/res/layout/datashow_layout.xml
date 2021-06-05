@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:layout_margin="3dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="4dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/countryName"
+                android:text="India"
+                android:layout_margin="2dp"
+                android:layout_weight="0.60"
+                android:fontFamily="@font/gb"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"></TextView>
+
+
+            <ImageView
+                android:layout_width="0dp"
+                android:id="@+id/flag"
+                android:layout_margin="5dp"
+                android:layout_weight="0.40"
+                android:layout_height="40dp"></ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:textSize="18sp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:id="@+id/region"
+                android:text="Region"
+                android:layout_height="wrap_content"></TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:textSize="18sp"
+                android:layout_margin="5dp"
+                android:id="@+id/subRegion"
+                android:layout_weight="1"
+                android:text="Sub Region"
+                android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:textSize="18sp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:id="@+id/capital"
+                android:text="Capital"
+                android:layout_height="wrap_content"></TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:textSize="18sp"
+                android:layout_margin="5dp"
+                android:id="@+id/population"
+                android:layout_weight="1"
+                android:text="Population"
+                android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:textSize="18sp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:id="@+id/border"
+                android:text="Border"
+                android:layout_height="wrap_content"></TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:textSize="18sp"
+                android:layout_margin="5dp"
+                android:id="@+id/language"
+                android:layout_weight="1"
+                android:text="Language"
+                android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
